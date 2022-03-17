@@ -1,1 +1,1 @@
-# JavaScript-Tetris
+# Tetris made with JavaScript, HTML, and CSS
