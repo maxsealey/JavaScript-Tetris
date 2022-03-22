@@ -1,3 +1,3 @@
-const cols = 10;
-const rows = 20;
-const blockSize = 30;
+const COLS = 10;
+const ROWS = 20;
+const BLOCK_SIZE = 30;

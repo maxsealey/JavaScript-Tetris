@@ -1,6 +1,10 @@
+* {
+    background-color: lightsteelblue;
+}
+
 #game {
     display:grid;
-    grid-template-columns:300px 200px;
+    grid-template-columns:200px 320px;
 }
 
 .info-column {
@@ -12,11 +16,9 @@
   }
 
 #board {
-    border:1px solid blue;
-    background-color: gray;
-    height:420px;
-    width:300px;
+    background-color: white;
     margin-top:30px;
+    box-shadow: 0px 2px 4px 2px black;
 }
 
 #playbutton {
@@ -33,7 +35,7 @@
   }
 
   #playbutton:active {
-      background-color: lightgreen;
+      background-color: white;
       color:black;
-      box-shadow: 0px 1px 3px 1px black;
+      box-shadow: 0px 1px 1px 1px black;
   }
