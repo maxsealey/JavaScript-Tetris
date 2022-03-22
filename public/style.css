@@ -1,17 +1,22 @@
 #game {
     display:grid;
-    grid-template-columns: 400px 250px;
+    grid-template-columns:300px 200px;
 }
 
 .info-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 30px;
+    margin-top:20px;
   }
 
 #board {
     border:1px solid blue;
     background-color: gray;
+    height:420px;
+    width:300px;
+    margin-top:30px;
 }
 
 #playbutton {
