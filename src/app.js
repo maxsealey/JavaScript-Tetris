@@ -6,3 +6,8 @@ ctx.canvas.height = ROWS * BLOCK_SIZE
 
 // CanvasRenderingContext2D.scale()
 ctx.scale(BLOCK_SIZE, BLOCK_SIZE)
+
+function playGame() {
+    board = new Board(ctx)
+    console.table(board.grid) // test for game board
+}

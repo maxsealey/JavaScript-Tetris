@@ -1,13 +1,9 @@
-import 'board.css';
-
 class Board {
     constructor(ctx) {
         this.ctx = ctx;
     }
     // nested (multidimensional) arrays to represent board state
     getEmptyBoard() {
-        return Array.from(
-            {}
-        )
+        return new Array(COLS).map(x => x = new Array(ROWS).fill(0))
     }
 }
