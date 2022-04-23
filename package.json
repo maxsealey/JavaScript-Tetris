@@ -1,0 +1,20 @@
+{
+  "name": "javascript-tetris",
+  "version": "1.0.0",
+  "description": "Side project made to practice JavaScript and review dom methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/maxsealey/JavaScript-Tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsealey/JavaScript-Tetris/issues"
+  },
+  "homepage": "https://github.com/maxsealey/JavaScript-Tetris#readme"
+}
