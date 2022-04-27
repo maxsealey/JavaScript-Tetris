@@ -1,12 +1,15 @@
-import './constants';
-
-export default class Board {
+class Board {
     constructor(ctx) {
         this.ctx = ctx;
-        this.board = this.getEmptyBoard()
+        this.grid = this.getEmptyBoard()
     }
     // nested (multidimensional) arrays to represent board state
-    getEmptyBoard() {
+    /*getEmptyBoard() {
         return new Array(COLS).map(x => x = new Array(ROWS).fill(0))
-    }
+    }*/
+    getEmptyBoard() {
+        return Array.from(
+          {length: ROWS}, () => Array(COLS).fill(0)
+        );
+      }
 }

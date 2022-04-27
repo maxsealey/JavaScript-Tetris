@@ -8,6 +8,7 @@ ctx.canvas.height = ROWS * BLOCK_SIZE
 ctx.scale(BLOCK_SIZE, BLOCK_SIZE)
 
 function playGame() {
-    board = new Board(ctx)
+    const board = new Board(ctx)
     console.table(board.grid) // test for game board
 }
+
